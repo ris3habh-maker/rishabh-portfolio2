@@ -225,6 +225,6 @@ document.addEventListener('DOMContentLoaded', () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   });
 
-  // All dynamic sections are rendered above â€” now safe to bind cursor hover states.
+  // All dynamic sections are rendered above now safe to bind cursor hover states.
   attachCursorHoverListeners();
 });

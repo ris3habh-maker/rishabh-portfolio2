@@ -1,12 +1,12 @@
 /**
- * Portfolio Data â€” Rishabh
+ * Portfolio Data Rishabh
  */
 
 export const projectsData = [
   {
     id: "dr-setia",
     title: "Dr. Setia's Dental Centre",
-    tagline: "Full website for a family dental clinic in Patel Nagar, Delhi â€” trusted since 2002",
+    tagline: "Full website for a family dental clinic in Patel Nagar, Delhi trusted since 2002",
     category: "healthcare",
     categoryLabel: "Client Project Â· Web Design",
     year: "2026",
@@ -17,7 +17,7 @@ export const projectsData = [
     liveUrl: "https://axtero9.github.io/Dr-setia/",
     metrics: [
       { label: "Pages", value: "1-page" },
-      { label: "Live", value: "âœ“ Yes" }
+      { label: "Live", value: " Yes" }
     ],
     summary: "Designed and built a complete website for Dr. Setia's Dental Centre â€” a family dental practice in East Patel Nagar, Delhi that's been running since 2002. The clinic needed a proper online presence to convert phone enquiries into booked appointments.",
     challenge: "The clinic had no website at all. Patients were finding them on JustDial with no visual trust signals. They needed something that felt warm and professional without looking like a generic medical template.",
@@ -28,7 +28,7 @@ export const projectsData = [
   },
   {
     id: "satya-clinic",
-    title: "Satya Clinic â€” Dr. Nikhilesh Jai Pathak",
+    title: "Satya Clinic  Dr. Nikhilesh Jai Pathak",
     tagline: "Modern clinic website for a general physician in Patel Nagar, Delhi",
     category: "healthcare",
     categoryLabel: "Client Project Â· Web Design",
@@ -40,7 +40,7 @@ export const projectsData = [
     liveUrl: "https://satya-clinic-glow.vercel.app/",
     metrics: [
       { label: "Live on", value: "Vercel" },
-      { label: "Mobile", value: "âœ“ Ready" }
+      { label: "Mobile", value: " Ready" }
     ],
     summary: "Built a clean, modern website for Dr. Nikhilesh Jai Pathak's general physician practice. The clinic needed something that communicated trust and clarity â€” matching the doctor's own approach: clear diagnosis, honest advice.",
     challenge: "General physician clinics often look either too corporate or too outdated. The brief was: modern, calm, patient-friendly â€” something that explains what the doctor does without being overwhelming.",
@@ -63,7 +63,7 @@ export const projectsData = [
     liveUrl: "https://om-plum-seven.vercel.app/",
     metrics: [
       { label: "Live on", value: "Vercel" },
-      { label: "Mobile", value: "âœ“ Ready" }
+      { label: "Mobile", value: "Ready" }
     ],
     summary: "Designed and built a high-impact portfolio website for Om Sharan Verma, a freelance video editor specialising in high-retention reels, motion graphics, kinetic typography, and music video edits. The site needed to feel as cinematic as his work.",
     challenge: "Video editors are hard to differentiate online â€” most portfolios look like plain link lists. Om needed something bold and immersive that would immediately communicate his visual style and convince potential clients before they even hit play.",
@@ -86,7 +86,7 @@ export const projectsData = [
     liveUrl: "https://aktiv-fitness.vercel.app/",
     metrics: [
       { label: "Live on", value: "Vercel" },
-      { label: "Mobile", value: "âœ“ Ready" }
+      { label: "Mobile", value: "Ready" }
     ],
     summary: "Designed and built a bold, high-converting landing page for Aktiv Fitness â€” a premium gym in Dev Nagar, Karol Bagh, New Delhi that's been running for 10+ years with 500+ active members and a 4.9 Google rating. The goal was to turn online visitors into real walk-ins and membership enquiries.",
     challenge: "The gym had strong offline word-of-mouth and great Google reviews but no proper website. Potential members couldn't find clear information about timings, services, or pricing â€” and there was no way to contact the gym directly from search results.",
@@ -144,7 +144,7 @@ export const processData = [
   {
     step: "02",
     title: "Design First",
-    duration: "Days 2â€”5",
+    duration: "Days 5",
     subtitle: "Figma mockup before touching code",
     description: "I design in Figma before writing a single line of code. You get to see and approve how it'll look before I build it â€” so there are no surprises.",
     tasks: ["Wireframes", "Visual design", "Client review", "Revisions"]
@@ -152,17 +152,17 @@ export const processData = [
   {
     step: "03",
     title: "Build",
-    duration: "Days 6â€”12",
+    duration: "Days 6”12",
     subtitle: "Turning the design into a real website",
-    description: "I build it clean â€” proper HTML structure, responsive CSS, and fast-loading pages. I test on mobile and different browsers as I go.",
+    description: "I build it clean  proper HTML structure, responsive CSS, and fast-loading pages. I test on mobile and different browsers as I go.",
     tasks: ["HTML/CSS/JS or React", "Mobile testing", "Performance check"]
   },
   {
     step: "04",
     title: "Review & Hand Off",
-    duration: "Days 13â€”14",
+    duration: "Days 13-14",
     subtitle: "You check it, I fix anything, then it's yours",
-    description: "You get a preview link, give feedback, and I make final tweaks. Then I hand over the files or deploy â€” whichever you prefer.",
+    description: "You get a preview link, give feedback, and I make final tweaks. Then I hand over the files or deploy  whichever you prefer.",
     tasks: ["Client review", "Final edits", "Files / deployment", "Done!"]
   }
 ];
@@ -203,11 +203,11 @@ export const testimonialsData = [
 export const faqsData = [
   {
     question: "How much do you charge?",
-    answer: "Honestly, it depends on the project. A simple landing page might be â‚¹6,000â€”â‚¹12,000. A more involved site with custom design and multiple pages could be â‚¹15,000â€”â‚¹30,000. I try to keep it fair for early-stage projects and I'm open to working within your budget if the project is interesting."
+    answer: "Honestly, it depends on the project. A simple landing page might be â‚¹6,000‚¹12,000. A more involved site with custom design and multiple pages could be â‚¹15,000 â‚¹30,000. I try to keep it fair for early-stage projects and I'm open to working within your budget if the project is interesting."
   },
   {
     question: "How long does a project take?",
-    answer: "A landing page usually takes 1-2 weeks. A full multi-page site takes 3â€”4 weeks. It also depends on how quickly you can give feedback â€” the faster you respond, the faster we move."
+    answer: "A landing page usually takes 1-2 weeks. A full multi-page site takes ”4 weeks. It also depends on how quickly you can give feedback  the faster you respond, the faster we move."
   },
   {
     question: "Do you do both design and development?",
@@ -215,10 +215,10 @@ export const faqsData = [
   },
   {
     question: "Will I be able to edit the site myself after launch?",
-    answer: "If we build in Webflow, yes â€” absolutely. I'll set up the CMS and walk you through how to edit content. If it's a coded site, I can add simple CMS tools or document everything clearly."
+    answer: "If we build in Webflow, yes absolutely. I'll set up the CMS and walk you through how to edit content. If it's a coded site, I can add simple CMS tools or document everything clearly."
   },
   {
-    question: "You're fairly new â€” should I be worried?",
+    question: "You're fairly new  should I be worried?",
     answer: "Fair question. I have 2 years of experience and my projects so far have been small but done properly. I'm not going to pretend I'm a senior designer with 10 years of experience. What I can promise is that I'll be honest, communicative, and I'll work hard to get it right. Check out my work and judge for yourself."
   }
 ];

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rishabh — Web Developer</title>
+  <meta name="description" content="Rishabh builds and designs websites that convert. Web Developer & UI/UX Designer." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Inter:wght@300;400;500&family=DM+Mono:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <a href="#" class="nav-logo">Rishabh<span>.</span></a>
+    <div class="nav-links" id="nav-links">
+      <a href="#work">Work</a>
+      <a href="#services">Services</a>
+      <a href="#process">Process</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="nav-right">
+      <div class="avail-dot"></div>
+      <span class="avail-text">Available</span>
+      <a href="#contact" class="nav-cta">Let's talk</a>
+      <button class="hamburger" id="hamburger">
+        <span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-wrap">
+      <img src="assets/hero-bg.png" alt="" class="hero-bg-img" />
+      <div class="hero-bg-fade"></div>
+    </div>
+
+    <div class="hero-inner">
+      <div class="hero-tag">
+        <span class="mono">Web Developer &amp; Designer</span>
+        <span class="tag-line"></span>
+        <span class="mono">India · 2 yrs exp</span>
+      </div>
+
+      <h1 class="hero-headline">
+        <span class="line-wrap"><span class="line">I build websites</span></span>
+        <span class="line-wrap"><span class="line accent-line">that actually</span></span>
+        <span class="line-wrap"><span class="line">work.</span></span>
+      </h1>
+
+      <div class="hero-bottom">
+        <p class="hero-desc">
+          Hi, I'm <strong>Rishabh</strong> — 2 years in, learning every day. I design and build clean, fast websites for small businesses, startups, and people who need a proper digital presence without big agency prices.
+        </p>
+        <div class="hero-actions">
+          <a href="#work" class="btn-main">See my work</a>
+          <a href="#contact" class="btn-ghost">Let's talk ↗</a>
+        </div>
+      </div>
+
+      <div class="hero-footer">
+        <div class="hero-stat">
+          <span class="stat-n">30+</span>
+          <span class="stat-l">Projects done</span>
+        </div>
+        <div class="hero-stat">
+          <span class="stat-n">2 yrs</span>
+          <span class="stat-l">Experience</span>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="scroll-hint">
+      <span class="mono">scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- WORK SECTION -->
+  <section class="section work-section" id="work">
+    <div class="section-top">
+      <div class="section-label"><span class="mono">01 — Selected Work</span></div>
+      <h2 class="section-title">Things I've built<br/><em>so far.</em></h2>
+      <p style="margin-top: 16px; font-size: 0.95rem; color: var(--mid); max-width: 540px; line-height: 1.6;">These are real projects — no fake case studies, no inflated numbers. Some are paid, some are personal. All are honest.</p>
+    </div>
+
+    <div class="work-filters">
+      <button class="wf-btn active" data-filter="all">All</button>
+      <button class="wf-btn" data-filter="healthcare">Healthcare</button>
+      <button class="wf-btn" data-filter="fitness">Fitness</button>
+      <button class="wf-btn" data-filter="creative">Creative</button>
+    </div>
+
+    <div class="work-list" id="projects-grid"></div>
+  </section>
+
+  <!-- SERVICES SECTION -->
+  <section class="section services-section" id="services">
+    <div class="section-top">
+      <div class="section-label"><span class="mono">02 — Services</span></div>
+      <h2 class="section-title">What I do<br/><em>best.</em></h2>
+    </div>
+    <div class="services-list" id="services-grid"></div>
+  </section>
+
+  <!-- PROCESS SECTION -->
+  <section class="section process-section" id="process">
+    <div class="section-top">
+      <div class="section-label"><span class="mono">03 — Process</span></div>
+      <h2 class="section-title">How it all<br/><em>happens.</em></h2>
+    </div>
+    <div class="process-steps" id="process-timeline"></div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section class="section about-section" id="about">
+    <div class="about-grid">
+      <div class="about-left">
+        <div class="section-label"><span class="mono">04 — About</span></div>
+        <h2 class="section-title">2 years in,<br/>still figuring<br/><em>it out.</em></h2>
+        <div class="about-image-wrap">
+          <img src="assets/hero-bg.png" alt="Rishabh" class="about-portrait" />
+          <div class="portrait-caption mono">Rishabh — Web Developer &amp; Designer</div>
+        </div>
+      </div>
+      <div class="about-right">
+        <p class="about-lead">I got into web development 2 years ago and haven't stopped since.</p>
+        <p class="about-body">I started like most people — watching YouTube tutorials, copying components, and wondering why nothing looked right. Eventually things clicked. I built my first portfolio, got my first paying client (a family linen shop, ₹8,000), and have been building from there.</p>
+        <p class="about-body">I'm not a senior. I won't pretend otherwise. But I'm someone who cares about the craft, shows up, communicates clearly, and doesn't disappear mid-project. For small businesses and early-stage founders, that usually matters more than years of experience.</p>
+        <p class="about-body">Currently: learning React properly, getting better at Figma, and trying to get faster at building.</p>
+
+        <div class="skills-row">
+          <div class="skills-col">
+            <div class="skills-label mono">Development</div>
+            <div class="skills-list">HTML, CSS, JavaScript, React (learning), Webflow, Firebase</div>
+          </div>
+          <div class="skills-col">
+            <div class="skills-label mono">Design</div>
+            <div class="skills-list">Figma, basic UI systems, typography, responsive layouts</div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="section testimonials-section" id="testimonials">
+    <div class="section-top">
+      <div class="section-label"><span class="mono">05 — Testimonials</span></div>
+      <h2 class="section-title">What clients<br/><em>actually say.</em></h2>
+      <p style="margin-top: 16px; font-size: 0.95rem; color: var(--mid); max-width: 480px; line-height: 1.6;">No fake quotes. These are from real people I've worked with — small projects, honest feedback.</p>
+    </div>
+    <div class="testimonials-grid" id="testimonials-track"></div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section faq-section" id="faq">
+    <div class="faq-inner">
+      <div class="faq-left">
+        <div class="section-label"><span class="mono">06 — FAQ</span></div>
+        <h2 class="section-title">Stuff you<br/>probably<br/><em>want to know.</em></h2>
+      </div>
+      <div class="faq-right">
+        <div class="faq-list" id="faq-list"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact-section" id="contact">
+    <div class="contact-centered">
+      <div class="section-label" style="text-align:center; margin-bottom: 24px;"><span class="mono">07 — Contact</span></div>
+      <h2 class="contact-big">Got a project?<br/><em>Hit me up.</em></h2>
+      <p class="contact-sub">DM me on Instagram — that's the fastest way to reach me.</p>
+      <a
+        href="https://www.instagram.com/rishabh_developss/"
+        target="_blank"
+        rel="noopener"
+        class="insta-btn"
+        id="insta-cta"
+      >
+        <svg class="insta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" xmlns="http://www.w3.org/2000/svg">
+          <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+          <circle cx="12" cy="12" r="4"/>
+          <circle cx="17.5" cy="6.5" r="0.8" fill="currentColor" stroke="none"/>
+        </svg>
+        @rishabh_developss
+      </a>
+      <div class="contact-note mono">I reply fast. Usually within a day.</div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <a href="#hero" class="footer-logo">Rishabh<span>.</span></a>
+      <div class="footer-links">
+        <a href="#work">Work</a>
+        <a href="#services">Services</a>
+        <a href="#process">Process</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-right">
+        <button class="back-top" id="back-to-top-btn">↑ Top</button>
+        <span class="mono footer-copy">© 2026 Rishabh</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- MODAL -->
+  <div class="modal-backdrop" id="project-modal">
+    <div class="modal-box">
+      <button class="modal-close" id="modal-close-btn">✕</button>
+      <div id="modal-content-container"></div>
+    </div>
+  </div>
+
+  <!-- TOAST -->
+  <div class="toast-wrap" id="toast-container"></div>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
